@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '6a92a12f-3676-4de1-9832-9d4b0861ccdf'
   imageRepository: 'shivpawarmyonlinestore'
   containerRegistry: 'myonlinestore1.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/Dockerfile-multistage'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'myonlinestore176d3-auth'
 
